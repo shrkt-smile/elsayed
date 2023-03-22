@@ -23,7 +23,7 @@ footer{background-color:#fff;box-shadow:0 2px 2px rgb(0 21 64 / 10%),0 10px 10px
 .comment,.prg,.serv,.certificate,.count div{background:#fff;border:1px solid #ccc;padding:10px 15px;text-align:right;border-radius:3px;}
 .count{grid-gap:10px;}
 .count div{text-align:center;font-style: normal;border:0;padding:10px 0px}
-.count i{text-align:center;display:block;font-size:30px;font-weight:700}
+.count p{text-align:center;display:block;font-size:30px;font-weight:700}
 :root{--red:#fd7473;--yellow:#fec951;--blue:#47b8e0;--purp:#9f68d0;}
 .bar{position:relative;width:100%;height:48px;background:#ccc;margin-bottom:1.5rem;border-radius:5px;}
 .certificate,.count{text-align:center}
@@ -73,15 +73,15 @@ footer{background-color:#fff;box-shadow:0 2px 2px rgb(0 21 64 / 10%),0 10px 10px
 <div class='continer counts'>
 <div class='count'>
 <div class="com-counter">
-<i class="fa fa-grin-hearts"><span></span></i>
+<p/>
 <h3>حالة إرضاء</h3>
 </div>
 <div class="pro-counter">
-<i class="fa fa-hands-holding"><span></span></i>
+<p/>
 <h3>المشاريع</h3>
 </div>
 <div class="con-counter">
-<i class="fa fa-user-tie"><span></span></i>
+<p/>
 <h3>العملاء</h3>
 </div>
 </div>
@@ -219,10 +219,10 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   setTimeout(skillSet, 1000);
 });
-const Comcounter = document.querySelector(".com-counter span");
-const Procounter = document.querySelector(".pro-counter span");
+const Comcounter = document.querySelector(".com-counter p");
+const Procounter = document.querySelector(".pro-counter p");
 const proNumber = 130;
-const Concounter = document.querySelector(".con-counter span");
+const Concounter = document.querySelector(".con-counter p");
 const conNumber = 80;
 let count = 0;
 
