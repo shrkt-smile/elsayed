@@ -73,16 +73,16 @@ footer{background-color:#fff;box-shadow:0 2px 2px rgb(0 21 64 / 10%),0 10px 10px
 <div class='continer counts'>
 <div class='count'>
 <div class="com-counter">
-<p></p>
+<i class="fa fa-grin-hearts"><span></span></i>
 <h3>حالة إرضاء</h3>
 </div>
 <div class="pro-counter">
-<p></p>
+<i class="fa fa-grin-hands"><span></span></i>
 <h3>المشاريع</h3>
 </div>
 <div class="con-counter">
-<p></p>
-<h3>العملاء</h3>
+<i><span></span></i>
+<h3 class="fa fa-user-tie">العملاء</h3>
 </div>
 </div>
 </div>
@@ -219,10 +219,10 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   setTimeout(skillSet, 1000);
 });
-const Comcounter = document.querySelector(".com-counter p");
-const Procounter = document.querySelector(".pro-counter p");
+const Comcounter = document.querySelector(".com-counter span");
+const Procounter = document.querySelector(".pro-counter span");
 const proNumber = 130;
-const Concounter = document.querySelector(".con-counter p");
+const Concounter = document.querySelector(".con-counter span");
 const conNumber = 80;
 let count = 0;
 
